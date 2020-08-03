@@ -1,0 +1,317 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url("../multimedia/lou1.jpeg") no-repeat center center fixed;
+    font-family: 'Julius Sans One', sans-serif;
+    background-size: cover;
+    font-size: 2rem;
+}
+
+.bodySecundario {
+    background-color: #f6f3ec;
+}
+
+
+/* de acá es el header nuevo */
+
+.logo {
+    width: 60px;
+}
+
+.seccionPrincipal {
+    font-size: 3rem;
+    color: #fe6d73;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.headerSecundario {
+    background-color: #227c9d;
+    height: 90px;
+}
+
+.tituloIndex {
+    color: #fdb33b;
+    font-size: 6rem;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+ul li {
+    text-align: center;
+    display: inline;
+    padding: 1rem;
+}
+
+ul li a {
+    color: #fef9ef;
+    font-family: 'GFS Neohellenic';
+}
+
+ul li a:hover {
+    color: #0f3a49;
+}
+
+
+/* a partir de acá el main 
+ */
+
+.seguime {
+    background-color: #227c9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 300px;
+    padding: 30px;
+}
+
+.seguimePalabra {
+    color: white;
+    font-size: 3rem;
+}
+
+.seguime .facebook img {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+.seguime .facebook img:hover {
+    color: #0f3a49;
+}
+
+.seguime .instagram img {
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+.seguime .youtube img {
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+footer {
+    background-color: #ffcb77;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+
+footer .ubicacion img {
+    width: 35px;
+    height: 35px;
+}
+
+footer .ubicacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+footer .porMavi {
+    margin: 5px;
+    padding: 10px;
+}
+
+footer .derechos {
+    margin: 5px;
+    padding: 10px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    font-size: 10px;
+}
+
+p {
+    font-family: 'GFS Neohellenic', sans-serif;
+    color: black;
+}
+
+.tituloSecundario {
+    color: #fe6d73;
+    font-family: 'GFS Neohellenic';
+    text-align: center;
+}
+
+
+/*------------------SECCIÓN SABIDURÍA----con--bootstrap-----------------------*/
+
+.tituloSecundario {
+    color: #227c9d;
+    text-align: center;
+}
+
+.section1 {
+    background-color: wheat;
+}
+
+.section2 {
+    background-color: #f6f3ec;
+}
+
+.section3 {
+    background-color: wheat;
+}
+
+
+/*-------------------SECCIÓN CLASES-----con Flex------------*/
+
+.tabla {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+.claseInteres {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.botonVolver {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.botonVolver a:hover {
+    background-color: #fe6d73;
+    color: #fef9ef;
+}
+
+
+/*-------------SECCIÓN CONTACTO----------------*/
+
+fieldset {
+    font-family: 'Poiret One';
+    margin: 20px;
+}
+
+.botonVolver a {
+    color: white;
+    background-color: #17c3b2;
+    border: solid 1 px;
+    padding: 10px;
+    margin-top: 200px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.pregunta {
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+button {
+    width: 150px;
+}
+
+.botonenviar {
+    background-color: #227c9d;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+/*--------------------SECCIÓN SOBRE MI-----con Grid-----------------------------*/
+
+.grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "tituloSobre tituloSobre" "textoSobre1 imagen1" "imagen2 textoSobre2" "textoSobre3 imagen3";
+    align-items: center;
+    padding: 30px;
+}
+
+.tituloSobre {
+    grid-area: tituloSobre;
+    font-size: px;
+    color: #3b6064;
+}
+
+.textoSobre1 p {
+    grid-area: textoSobre1;
+    font-size: 18px;
+    color: #3b6064;
+}
+
+.imagen1 img {
+    grid-area: imagen1;
+    transition: all 2s;
+}
+
+.imagen1 img:hover {
+    width: 900px;
+}
+
+.textoSobre2 p {
+    grid-area: textoSobre2;
+    font-size: 18px;
+    color: #3b6064;
+}
+
+.textoSobre3 p {
+    grid-area: textoSobre3;
+    font-size: 18px;
+    color: #3b6064;
+}
+
+.imagen2 img {
+    grid-area: imagen2;
+    transition: all 2s;
+}
+
+.imagen2 img:hover {
+    height: 680px;
+}
+
+.imagen3 img {
+    grid-area: imagen3;
+    transition: all 2s;
+}
+
+.imagen3 img:hover {
+    width: 900px;
+}
+
+.parrafoSobre {
+    font-family: 'Poiret One';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    width: 600px;
+}
