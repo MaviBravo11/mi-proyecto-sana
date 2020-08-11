@@ -19,18 +19,18 @@ body {
   width: 50px; }
 
 .seccionPrincipal {
-  font-size: 3rem;
-  color: #fe6d73;
-  font-family: 'Julius Sans One', sans-serif; }
+  font-size: 4.5rem;
+  color: #555b6e;
+  font-family: 'Sacramento', cursive; }
 
 .headerSecundario {
   height: 50%;
-  border-bottom: solid 1px #419FD9;
-  margin-top: 30px; }
+  border-bottom: solid 1px #bee3db;
+  background-color: #faf9f9; }
 
 .tituloIndex {
-  color: #419FD9;
-  font-size: 4rem;
+  color: #555b6e;
+  font-size: 5rem;
   font-family: 'Julius Sans One', sans-serif; }
 
 ul li {
@@ -39,34 +39,47 @@ ul li {
   padding: 1rem; }
 
 ul li a {
-  color: #594D58;
+  color: #555b6e;
   font-family: 'GFS Neohellenic', sans-serif;
   font-size: 17px; }
 
 ul li a:hover {
-  color: #BB9F9C; }
+  color: #FFC300; }
 
 /* a partir de acá el main */
+.seccion0 {
+  background-image: url("../multimedia/mandala1.jpg");
+  margin-top: 30px; }
+
+.seccion0__article_h3 {
+  font-size: 3em; }
+
+.seccion0__article__p {
+  font-family: "Thasadith", sans-serif; }
+
+.seccion {
+  background-image: url("../multimedia/mandala1.jpg");
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
 .seccion__article__p1 {
-  color: #fef9ef;
-  background-color: #D7B7CC;
-  text-align: center;
-  padding: 10px; }
+  font-size: 3em; }
 
 .seccion__article__p2 {
-  color: #fef9ef;
-  background-color: #D7B7CC;
-  text-align: center;
-  width: 5px; }
+  font-family: "Thasadith", sans-serif; }
 
-.seccion2__article__p {
-  color: #419FD9;
-  font-size: 1.5em;
-  font-family: "Julius Sans One", sans-serif;
-  text-align: center; }
+.seccionC {
+  background-image: url("../multimedia/mandala1.jpg");
+  margin-bottom: 80px; }
+
+.seccionC__article__p1 {
+  font-size: 3em; }
+
+.seccion__article__p2 {
+  font-family: "Thasadith", sans-serif; }
 
 .seguime {
-  background-color: #f6f3ec;
+  background-color: #bee3db;
   border-top: solid 1px #594D58;
   display: flex;
   justify-content: center;
@@ -104,7 +117,7 @@ ul li a:hover {
   animation-name: aparecer; }
 
 footer {
-  background-color: #ffcb77;
+  background-color: #ffd6ba;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -143,20 +156,20 @@ p {
 
 /*------------------SECCIÓN SABIDURÍA----con--bootstrap-----------------------*/
 .tituloSecundario {
-  color: #227c9d;
+  color: #555b6e;
   text-align: center; }
 
 .section1 {
-  background-color: wheat; }
-
-.section2 {
-  background-color: #f6f3ec; }
-
-.section3 {
-  background-color: wheat; }
+  background-color: #bee3db;
+  margin-bottom: 30px; }
 
 .container__section1__h2 {
-  color: blue; }
+  color: #555b6e;
+  font-size: 3rem;
+  font-family: "Thasadith", sans-serif; }
+
+.container__section1__p {
+  font-family: "Thasadith", sans-serif; }
 
 /*-------------------SECCIÓN CLASES-----con Flex------------*/
 .tabla {
@@ -199,7 +212,7 @@ fieldset {
 
 .botonVolver a {
   color: white;
-  background-color: #17c3b2;
+  background-color: #89b0ae;
   border: solid 1 px;
   padding: 10px;
   margin-top: 200px;
