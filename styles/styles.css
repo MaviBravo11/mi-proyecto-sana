@@ -157,7 +157,8 @@ p {
 /*------------------SECCIÓN SABIDURÍA----con--bootstrap-----------------------*/
 .tituloSecundario {
   color: #555b6e;
-  text-align: center; }
+  text-align: center;
+  background-image: url("../multimedia/mandala1.jpg"); }
 
 .section1 {
   background-color: #bee3db;
