@@ -24,6 +24,13 @@ body {
 .logo {
   width: 50px; }
 
+.logo2 {
+  width: 85%; }
+
+.logo2:hover {
+  transform: scale(1.2, 1.2);
+  filter: sepia(80%); }
+
 .seccionPrincipal {
   font-size: 4.5rem;
   color: #555b6e;
@@ -33,6 +40,13 @@ body {
   height: 50%;
   border-bottom: solid 1px #bee3db;
   background-color: #faf9f9; }
+
+.headerSecundario2 {
+  height: 70px;
+  background-color: #faf9f9;
+  border-bottom: solid 1px #bee3db;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .tituloIndex {
   color: #555b6e;
@@ -123,7 +137,7 @@ ul li a:hover {
   animation-name: aparecer; }
 
 footer {
-  background-color: #ffd6ba;
+  background-color: #555b6e;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -139,20 +153,23 @@ footer .ubicacion {
   flex-direction: row;
   align-items: center;
   margin: 5px;
-  padding: 10px; }
+  padding: 10px;
+  color: white; }
 
 footer .porMavi {
   margin: 5px;
-  padding: 10px; }
+  padding: 10px;
+  color: white; }
 
 footer .derechos {
   margin: 5px;
   padding: 10px;
-  font-family: 'GFS Neohellenic', sans-serif;
-  font-size: 10px; }
+  font-family: 'Thasadith', sans-serif;
+  font-size: 15px;
+  color: white; }
 
 p {
-  font-family: 'GFS Neohellenic', sans-serif;
+  font-family: 'Thasadith', sans-serif;
   color: black; }
 
 .tituloSecundario {
@@ -209,8 +226,8 @@ li {
   padding: 20px; }
 
 .botonVolver a:hover {
-  background-color: #fe6d73;
-  color: #fef9ef; }
+  background-color: #FFC300;
+  color: #555b6e; }
 
 /*-------------SECCIÓN CONTACTO----------------*/
 fieldset {
@@ -219,7 +236,7 @@ fieldset {
 
 .botonVolver a {
   color: white;
-  background-color: #89b0ae;
+  background-color: #555b6e;
   border: solid 1 px;
   padding: 10px;
   margin-top: 200px;
@@ -249,10 +266,24 @@ button {
   align-items: center;
   padding: 30px; }
 
+.tiziano:hover {
+  transform: scale(1.1, 1.1);
+  filter: sepia(60%); }
+
+.fotolourdes1:hover {
+  transform: scale(1.1, 1.1);
+  filter: sepia(60%); }
+
+.fotolourdes2:hover {
+  transform: scale(1.1, 1.1);
+  filter: sepia(60%); }
+
 .tituloSobre {
   grid-area: tituloSobre;
   font-size: px;
-  color: #3b6064; }
+  color: #3b6064;
+  margin: 70px;
+  text-align: center; }
 
 .textoSobre1 p {
   grid-area: textoSobre1;
