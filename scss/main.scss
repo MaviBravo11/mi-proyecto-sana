@@ -254,6 +254,22 @@ p {
 
 /*-------------------SECCIÓN CLASES-----con Flex------------*/
 
+.loutaller:hover{
+    transform: scale(1.1,1.1);
+    filter: sepia(30%);
+}
+.loutaller2:hover{
+    transform: scale(1.1,1.1);
+    filter: sepia(60%);
+}
+.loutaller3:hover{
+    transform: scale(1.1,1.1);
+    filter: sepia(60%);
+}
+.fotostaller{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
 .tabla {
     display: flex;
     flex-flow: row wrap;
