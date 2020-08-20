@@ -39,9 +39,7 @@ body {
     filter: sepia(80%);
 
 }
-// .seccion1{
-//     // background-image: url("../multimedia/mandala1.jpg");
-// }
+
 .seccionPrincipal {
     font-size: 4.5rem;
     color: #555b6e;
@@ -92,6 +90,7 @@ ul li a:hover {
 //Aplico Operaciones
 $color: #555b6e;
 $background: #bee3db;
+$background2: #faf9f9;
 $text-align: center;
 $padding: 10px;
 $color2: #419FD9;
@@ -114,7 +113,7 @@ $backgroundimage: url("../multimedia/mandala1.jpg");
 }
 
 .seccion{
-    background-image: $backgroundimage;
+    background: $background2;
     margin-top: $margintop;
     margin-bottom: $margintop;
 }
