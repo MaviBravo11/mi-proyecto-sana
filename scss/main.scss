@@ -21,10 +21,6 @@ body {
     background-color: #f6f3ec;
 }
 
-.container__row_titulo {
-    color: #D7B7CC;
-    transform: scale(1, 1);
-}
 
 // de acá es el header nuevo
 .logo {
@@ -41,15 +37,57 @@ body {
 }
 
 .seccionPrincipal {
-    font-size: 4.5rem;
+    font-size: 6rem;
     color: #555b6e;
      font-family: 'Sacramento', cursive;
-    
+     margin: 30px 10px 10px 30px;
+   
+}
+.sumate{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 30px;
+    color: #FFC300;
 }
 
+.sumate:hover{
+    color: #bee3db;
+}
+
+.sumate1{
+margin: 10px 30px;
+font-size: 2rem;
+letter-spacing: 1px;
+word-spacing: 4px;
+
+}
+.imgmandala{
+    width: 50%;
+   margin: 30px;
+ 
+}
+.elementoA{
+    background-color: #F9F8F7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.queTodo{
+
+    color: #8B8C90;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4rem;
+}
+.aquiAhora{
+    font-size: 6rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+}
 .headerSecundario {
     height: 50%;
-    border-bottom: solid 1px #bee3db; 
+    border-bottom: solid 1px #FFC300; 
     background-color: #faf9f9;
 }
 
@@ -234,7 +272,7 @@ p {
 .tituloSecundario {
     color: #555b6e;
     text-align: center;
-    background-image: url("../multimedia/mandala1.jpg");
+    background-color:#FFC300;
 }
 
 .section1 {
