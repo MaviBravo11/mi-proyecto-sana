@@ -54,11 +54,7 @@ letter-spacing: 1px;
 word-spacing: 4px;
 
 }
-.imgmandala{
-    width: 50%;
-   margin: 30px;
- 
-}
+
 .elementoA{
     background-color: #faf9f9;
     margin-top: 30px;
@@ -128,9 +124,10 @@ $color2: #419FD9;
 $tamanoLetra: 3em;
 $fuente: 'Julius Sans One',sans-serif;
 $fuente2: 'Thasadith', sans-serif;
-$margintop: 30px;
+$margintop: 50px;
 $marginboo: 80px;
 $backgroundimage: url("../multimedia/fondoa.jpeg");
+
 
 .seccion0{
     background-color: #FFF0BF;
@@ -150,13 +147,13 @@ $backgroundimage: url("../multimedia/fondoa.jpeg");
 }
 .seccion__article__p1 {
     font-size: $tamanoLetra;
-    color:$colorAma;
+    color:#0F83D5;
 }
 
 .seccion__article__p2 {
     font-family: $fuente2;
-}
 
+}
 .seccionC{
     background-image: $backgroundimage;
     margin-bottom: $marginboo;
@@ -173,7 +170,7 @@ $backgroundimage: url("../multimedia/fondoa.jpeg");
     color: $color;
     font-size: 20px;
     margin:10px;
-    padding: 15px;
+    padding: 8px;
     text-decoration: none;
 }
 .verProductos:hover{
@@ -183,7 +180,7 @@ $backgroundimage: url("../multimedia/fondoa.jpeg");
 //fin operaciones
 
 .seguime {
-    background-color: #faf9f9;
+    background-image: url("../multimedia/fondoagua.jfif");;
     border-top: solid 1px #594D58;
     display: flex;
     justify-content: center;
@@ -280,7 +277,7 @@ p {
 }
 
 .section1 {
-    background-color: #bee3db;
+    background-color: #faf9f9;
     margin-bottom: $margintop;
 }
 .container__section1__h2 {

@@ -42,10 +42,6 @@ body {
   letter-spacing: 1px;
   word-spacing: 4px; }
 
-.imgmandala {
-  width: 50%;
-  margin: 30px; }
-
 .elementoA {
   background-color: #faf9f9;
   margin-top: 30px;
@@ -96,7 +92,7 @@ ul li a:hover {
 /* a partir de acá el main */
 .seccion0 {
   background-color: #FFF0BF;
-  margin-top: 30px; }
+  margin-top: 50px; }
 
 .seccion0__article_h3 {
   font-size: 3em; }
@@ -106,12 +102,12 @@ ul li a:hover {
 
 .seccion {
   background: #faf9f9;
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .seccion__article__p1 {
   font-size: 3em;
-  color: #FFC300; }
+  color: #0F83D5; }
 
 .seccion__article__p2 {
   font-family: "Thasadith", sans-serif; }
@@ -131,7 +127,7 @@ ul li a:hover {
   color: #555b6e;
   font-size: 20px;
   margin: 10px;
-  padding: 15px;
+  padding: 8px;
   text-decoration: none; }
 
 .verProductos:hover {
@@ -139,7 +135,7 @@ ul li a:hover {
   text-decoration: none; }
 
 .seguime {
-  background-color: #faf9f9;
+  background-image: url("../multimedia/fondoagua.jfif");
   border-top: solid 1px #594D58;
   display: flex;
   justify-content: center;
@@ -219,8 +215,8 @@ p {
   background-image: url("..multimedia/fondoa.jpeg"); }
 
 .section1 {
-  background-color: #bee3db;
-  margin-bottom: 30px; }
+  background-color: #faf9f9;
+  margin-bottom: 50px; }
 
 .container__section1__h2 {
   color: #555b6e;
