@@ -27,16 +27,10 @@ body {
   transform: scale(1.2, 1.2);
   filter: sepia(80%); }
 
-.seccionPrincipal {
-  font-size: 6rem;
-  color: #555b6e;
-  font-family: 'Sacramento', cursive;
-  margin: 30px 10px 10px 30px; }
-
 .sumate {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bold;
-  margin: 10px 30px;
+  margin: 40px 20px 15px 30px;
   color: #FFC300; }
 
 .sumate:hover {
@@ -44,7 +38,7 @@ body {
 
 .sumate1 {
   margin: 10px 30px;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 1px;
   word-spacing: 4px; }
 
@@ -53,14 +47,14 @@ body {
   margin: 30px; }
 
 .elementoA {
-  background-color: #F9F8F7;
+  background-color: #faf9f9;
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 30px;
   padding-bottom: 30px; }
 
 .queTodo {
-  color: #8B8C90;
+  color: #555b6e;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 4rem; }
 
@@ -72,7 +66,6 @@ body {
 
 .headerSecundario {
   height: 50%;
-  border-bottom: solid 1px #FFC300;
   background-color: #faf9f9; }
 
 .headerSecundario2 {
@@ -102,7 +95,7 @@ ul li a:hover {
 
 /* a partir de acá el main */
 .seccion0 {
-  background-image: url("../multimedia/mandala1.jpg");
+  background-color: #FFF0BF;
   margin-top: 30px; }
 
 .seccion0__article_h3 {
@@ -117,13 +110,14 @@ ul li a:hover {
   margin-bottom: 30px; }
 
 .seccion__article__p1 {
-  font-size: 3em; }
+  font-size: 3em;
+  color: #FFC300; }
 
 .seccion__article__p2 {
   font-family: "Thasadith", sans-serif; }
 
 .seccionC {
-  background-image: url("../multimedia/mandala1.jpg");
+  background-image: url("../multimedia/fondoa.jpeg");
   margin-bottom: 80px; }
 
 .seccionC__article__p1 {
@@ -132,8 +126,20 @@ ul li a:hover {
 .seccion__article__p2 {
   font-family: "Thasadith", sans-serif; }
 
+.verProductos {
+  background-color: #FFC300;
+  color: #555b6e;
+  font-size: 20px;
+  margin: 10px;
+  padding: 15px;
+  text-decoration: none; }
+
+.verProductos:hover {
+  background-color: #F3DB8C;
+  text-decoration: none; }
+
 .seguime {
-  background-color: #bee3db;
+  background-color: #faf9f9;
   border-top: solid 1px #594D58;
   display: flex;
   justify-content: center;
@@ -206,16 +212,11 @@ p {
   font-family: 'Thasadith', sans-serif;
   color: black; }
 
-.tituloSecundario {
-  color: #fe6d73;
-  font-family: 'GFS Neohellenic';
-  text-align: center; }
-
 /*------------------SECCIÓN SABIDURÍA----con--bootstrap-----------------------*/
 .tituloSecundario {
   color: #555b6e;
   text-align: center;
-  background-color: #FFC300; }
+  background-image: url("..multimedia/fondoa.jpeg"); }
 
 .section1 {
   background-color: #bee3db;
@@ -270,6 +271,13 @@ li {
   justify-content: space-around;
   padding: 10px; }
 
+.tituloVideos {
+  background-color: #f6f3ec;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px; }
+
 .botonVolver {
   display: flex;
   justify-content: flex-start;
@@ -306,16 +314,7 @@ button {
   padding: 10px;
   font-size: 15px; }
 
-/*--------------------SECCIÓN SOBRE MI-----con Grid-----------------------------*/
-.grid {
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "tituloSobre tituloSobre" "textoSobre1 imagen1" "imagen2 textoSobre2" "textoSobre3 imagen3";
-  align-items: center;
-  padding: 30px; }
-
+/*--------------------SECCIÓN BIOGRAFÍA----------------------------------*/
 .tiziano:hover {
   transform: scale(1.1, 1.1);
   filter: sepia(60%); }
@@ -328,55 +327,24 @@ button {
   transform: scale(1.1, 1.1);
   filter: sepia(60%); }
 
+.fotoloubio {
+  width: 40%;
+  margin-top: 30px; }
+
+.vocacion {
+  background-color: #f6f3ec;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-top: 30px;
+  padding: 20px; }
+
+.vocacion2 {
+  background-color: #dee0e7;
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 20px; }
+
 .tituloSobre {
   grid-area: tituloSobre;
   font-size: px;
   color: #3b6064;
   margin: 70px;
   text-align: center; }
-
-.textoSobre1 p {
-  grid-area: textoSobre1;
-  font-size: 18px;
-  color: #3b6064; }
-
-.imagen1 img {
-  grid-area: imagen1;
-  transition: all 2s; }
-
-.imagen1 img:hover {
-  width: 900px; }
-
-.textoSobre2 p {
-  grid-area: textoSobre2;
-  font-size: 18px;
-  color: #3b6064; }
-
-.textoSobre3 p {
-  grid-area: textoSobre3;
-  font-size: 18px;
-  color: #3b6064; }
-
-.imagen2 img {
-  grid-area: imagen2;
-  transition: all 2s; }
-
-.imagen2 img:hover {
-  height: 680px; }
-
-.imagen3 img {
-  grid-area: imagen3;
-  transition: all 2s; }
-
-.imagen3 img:hover {
-  width: 900px; }
-
-.parrafoSobre {
-  font-family: 'Poiret One'; }
-
-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  width: 600px; }
