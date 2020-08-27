@@ -130,15 +130,14 @@ ul li a:hover {
   font-family: "Thasadith", sans-serif; }
 
 .verProductos {
-  background-color: #FFC300;
-  color: #555b6e;
+  text-decoration: none;
+  color: #FFC300;
   font-size: 20px;
   margin: 10px;
   padding: 8px; }
 
 .verProductos:hover {
-  background-color: #F3DB8C;
-  text-decoration: none; }
+  color: #bee3db; }
 
 .linkVer {
   text-decoration: none; }
