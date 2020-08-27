@@ -14,10 +14,10 @@
 
 
 <body>
-    <header class="container headerSecundario2 d-flex justify-content-end d-flex align-items-center">
+    <header class="container-fluid headerSecundario2 d-flex justify-content-center d-flex align-items-center">
         <div class="row">
             
-        <div class="col-lg-1 col-sm-1 d-flex justify-content-center d-flex align-items-center"><a href="landing.html"><img class="logo2 img-responsive" src="multimedia/om23.png"></a> </div>
+        <div class="col-lg-1 col-sm-1 d-flex justify-content-end d-flex align-items-center"><a href="landing.html"><img class="logo2 img-responsive" src="multimedia/om23.png"></a> </div>
 
             <nav class="col-lg-11 col-sm-11 d-flex justify-content-center d-flex align-items-center">
                 <ul>
@@ -30,13 +30,14 @@
        
     </header>
 
+
     <div class="container">
         <h1 class="display-1 tituloSecundario">Contacto</h1>
         <table>
             <form action="archivoparaprocesardatoscontacto.php" method="post">
                 <fieldset>
                     <div class="form-group">
-                        <legend class="h1"><b>Escribime</b></legend>
+              
 
                         <label for="nombre" class="h2">Nombre Completo:</label>
                         <input type="text" name="nombre" id="nombre" class="form-control"><br>
@@ -49,39 +50,31 @@
                     <input type="tex" name="email" id="email" class="form-control">
 
 
-                    <!-- <div class="claseInteres">
-                        <label for="interes" class="h1"><b>¿Qué clase o taller te interesa?</b></label>
-                        <input type="checkbox" name="Yoga & Meditación" id="yoga">Yoga & Meditación
-                        <input type="checkbox" name="Pilates " id="pilates ">Pilates
-                        <input type="checkbox" name="GYM para adultos" id="adultos">GYM para adultos
-                    </div> -->
-
-
                     <div class="row pregunta">
-                        <legend class="col-form-label col-sm-3 pt-0">¿Qué clase o taller te interesa?</legend>
+                        <legend class="font-weight-bold col-form-label col-sm-3 pt-0">¿Qué es lo que más te interesó?</legend>
 
                         <div class="col-sm-9">
-                            <div class="form-check">
+                            <div class="p-3 d-flex align-items-center form-check">
                                 <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                <label class="form-check-label" for="gridRadios1">
+                                <label class="pl-2 align-items-center form-check-label" for="gridRadios1">
                                Yoga & Meditación
                               </label>
                             </div>
-                            <div class="form-check">
+                            <div class="p-3 d-flex align-items-center form-check">
                                 <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                <label class="form-check-label" for="gridRadios2">
+                                <label class="pl-2 align-items-center form-check-label" for="gridRadios2">
                                Pilates
                               </label>
                             </div>
-                            <div class="form-check">
+                            <div class="p-3 d-flex align-items-center form-check">
                                 <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                <label class="form-check-label" for="gridRadios2">
+                                <label class="pl-2 align-items-center form-check-label" for="gridRadios2">
                               GYM para adultos
                               </label>
                             </div>
-                            <div class="form-check">
+                            <div class="p-3 d-flex align-items-center form-check">
                                 <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                <label class="form-check-label" for="gridRadios2">
+                                <label class=" pl-2 align-items-center form-check form-check-label" for="gridRadios2">
                               Productos Just
                               </label>
                             </div>
@@ -94,9 +87,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
 
-                    <!-- <input type="reset" name="limpiar" value="Limpiar formulario"> -->
-                    <!-- <input type="submit" name="enviar" value="Enviar formulario" class="btn"> -->
-                    <button type="submit" class="btn btn-primary botonenviar">Enviar formulario</button>
+                    <button type="submit" class="botonenviar">Enviar formulario</button>
 
                 </fieldset>
             </form>

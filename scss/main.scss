@@ -24,15 +24,20 @@ body {
 
 // de acá es el header nuevo
 .logo {
-    width: 50px;
+    width: 70px;
+    padding-left: 20px;
+    padding-right: 0px;
 }
 .logo2{
     width: 85%;
     
 }
 .logo2:hover{
-    transform: scale(1.2,1.2);
-    filter: sepia(80%);
+    padding: 2px;
+    border-radius:20%;
+-webkit-border-radius:40%;
+box-shadow: 0px 0px 5px 5px #ec731e;
+-webkit-box-shadow: 0px 0px 5px 5px#FFC300 ;
 
 
 }
@@ -41,10 +46,12 @@ body {
     font-weight: bold;
     margin: 40px 20px 15px 30px;
     color: #FFC300;
+    text-decoration: none;
 }
 
 .sumate:hover{
     color: #bee3db;
+    text-decoration: none;
 }
 
 .sumate1{
@@ -80,9 +87,8 @@ word-spacing: 4px;
 }
 
 .headerSecundario2{
-    height: 70px;
+    height: 80px;
     background-color: #faf9f9;
-    border-bottom: solid 1px #bee3db;
     padding-top: 20px;
     padding-bottom: 20px;
     
@@ -148,6 +154,7 @@ $backgroundimage: url("../multimedia/fondoa.jpeg");
 .seccion__article__p1 {
     font-size: $tamanoLetra;
     color:#0F83D5;
+    text-decoration: none;
 }
 
 .seccion__article__p2 {
@@ -171,12 +178,17 @@ $backgroundimage: url("../multimedia/fondoa.jpeg");
     font-size: 20px;
     margin:10px;
     padding: 8px;
-    text-decoration: none;
+  
 }
 .verProductos:hover{
     background-color:#F3DB8C; 
     text-decoration: none;
 }
+
+.linkVer{
+text-decoration: none;
+}
+
 //fin operaciones
 
 .seguime {
@@ -284,6 +296,7 @@ p {
     color: #555b6e;
     font-size: 3rem;
     font-family: $fuente2;
+    font-weight: bold
 }
 .container__section1__p{
     font-family: $fuente2;
@@ -373,6 +386,15 @@ fieldset {
     font-family: 'Julius Sans One', sans-serif;
 }
 
+.imagenJust:hover{
+    transform: scale(1.1,1.1);
+    padding: 2px;
+    border-radius:20%;
+-webkit-border-radius:40%;
+box-shadow: 0px 0px 5px 5px #ec731e;
+-webkit-box-shadow: 0px 0px 5px 5px#FFC300 ;
+
+}
 .pregunta {
     margin-top: 15px;
     padding-top: 20px;
@@ -383,11 +405,27 @@ button {
 }
 
 .botonenviar {
-    background-color: #227c9d;
+    background-color: #FFC300 ;
+    font-family: 'Julius Sans One', sans-serif;
     padding: 10px;
     font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
+.botonenviar:hover{
+    background-color: #f6f3ec;
+}
+.botonJust{
+    width: 200px;
+    height: 70px;
+    font-weight: 80px;
+    background-color: #FFC300 ;
 
+}
+.buton{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 
 /*--------------------SECCIÓN BIOGRAFÍA----------------------------------*/
 
