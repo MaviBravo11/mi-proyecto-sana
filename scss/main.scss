@@ -171,7 +171,9 @@ $backgroundimage: url("../multimedia/fondoa.jpeg");
 .seccion__article__p2{
     font-family: $fuente2;
 }
-
+.fotosindex:hover{
+    filter: opacity(.6);
+}
 .verProductos{
     text-decoration: none;
     color: $colorAma;
@@ -182,6 +184,7 @@ $backgroundimage: url("../multimedia/fondoa.jpeg");
 }
 .verProductos:hover{
     color: #bee3db; 
+    text-decoration: none;
 }
 
 .linkVer{
@@ -191,7 +194,7 @@ text-decoration: none;
 //fin operaciones
 
 .seguime {
-    background-image: url("../multimedia/fondoagua.jfif");;
+    background-color: #FFC300;
     border-top: solid 1px #594D58;
     display: flex;
     justify-content: center;
@@ -319,6 +322,8 @@ p {
 .fotostaller{
     margin-top: 50px;
     margin-bottom: 80px;
+
+
 }
 .tabla {
     display: flex;
